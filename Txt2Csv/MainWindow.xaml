@@ -1,0 +1,17 @@
+﻿<Window x:Class="Txt2Csv.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Txt2Csv"
+        mc:Ignorable="d"
+        Title="Txt2Csv" Height="240.361" Width="386.898"  FontSize="15" ResizeMode="NoResize" Loaded="Window_Loaded">
+    <Grid>
+        <Label x:Name="lblNums" Content="文件总数：" HorizontalAlignment="Left" Margin="23,53,0,0" VerticalAlignment="Top"/>
+        <TextBox  x:Name="tbxSign" HorizontalAlignment="Left" Height="29" Margin="115,92,0,0" TextWrapping="Wrap"  Text="&lt;##&gt;" VerticalContentAlignment="Center" VerticalAlignment="Top" Width="120"/>
+        <Label Content="切分标记：" HorizontalAlignment="Left" Margin="23.409,92.126,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnRun" Content="开始转换" HorizontalAlignment="Left" Margin="253,92,0,0" VerticalAlignment="Top" Width="94" Height="29" Click="btnRun_Click"/>
+        <Label x:Name="lblNote" Content="" HorizontalAlignment="Left" Margin="23,130,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
